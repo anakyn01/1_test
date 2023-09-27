@@ -1,0 +1,46 @@
+@charset "utf-8";/*캐릭터 인코딩설정*/
+/*reset css*/
+html, html * {
+margin:0 auto;
+padding:0;
+list-style: none;
+font-family:"맑은 고딕";
+color:#333;
+}
+body{
+    width: 1000px;
+    height: 650px;
+    background-color: #fff;
+    font-size:20px;
+}
+a{
+    text-decoration:none;
+    display:block;
+}
+
+/*navi*/
+header{
+float:left; position:absolute;
+}
+.top{
+float:left; width: 200px; height: 650px;
+}
+.logo{
+float:left; width: 200px; height: 40px;
+margin-top:30px; margin-bottom:30px;
+}
+.menu{
+float:left; top:100px; left:10px;
+position:absolute; text-align:center;
+z-index:1;
+}
+/*가로정렬*/
+.navi > li {
+    float:left; width:180px;
+}
+.navi > li > a {
+    width: 180px; height: 40px; line-height:40px;
+    font-size:16px; font-weight:bold;
+    background-color:#333;
+    color:#fff;
+}
